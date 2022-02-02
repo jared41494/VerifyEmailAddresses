@@ -2,7 +2,7 @@
 
 <h2>Purpose:</h2>
 <p>
-    Given a list of emails from an Excel document, iterate through the emails, checking if an email is valid through the website: <a href="https://www.verifyemailaddress.org/">https://www.verifyemailaddress.org/</a>. The website doesn't have a traditional API so the Selenium library for python has been used. Record a list of emails 
+    Given a list of emails from an Excel document, iterate through the emails, checking if an email is valid through the website: <a href="https://www.verifyemailaddress.org/">https://www.verifyemailaddress.org/</a>. The website doesn't have a traditional API so the Selenium library for python has been used. Record a list of failed and successful emails into new separate Excel docs. 
 </p>
 
 <h2>How to Install:</h2>
@@ -11,7 +11,7 @@
 	<li>Install the required modules</li>
 	<li>Install the required applications</li>
 	<li>
-		Run the code: <code>python scrapper.py</code> in the terminal
+		Run the code: <code>python VerifyEmailAddresses.py</code> in the terminal
 	</li>
 </ol>
 
